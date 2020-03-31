@@ -31,7 +31,28 @@ input {
 .l {
     font-size: 20px;
 }
+.sidebar {
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 20px;
+    width: 200px;
+}
+.sidebar_item {
+    padding: 9px;
+    background: #e9e2ea;
+    color: #101010;
+    width: 185px;
+}
+.sidebar_selected_item {
+    padding: 9px;
+    background: #404040;
+    color: #ffffff;
+    width: 200px;
+}
 .main {
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 80px;
     padding: 20px;
 }
 .centercol {
@@ -63,6 +84,20 @@ input {
 <body>
     <div class=topbar>
         Narnia COVID-19 Immunization Registry
+    </div>
+    <div class=sidebar>
+        <div class=sidebar_item>
+            Search
+        </div>
+        <div class=sidebar_selected_item>
+            Account Info
+        </div>
+        <div class=sidebar_item>
+            Sharing &amp; Privacy
+        </div>
+        <div class=sidebar_item>
+            My Immunity
+        </div>
     </div>
     <div class=main>
         <div class=l>
